@@ -31,9 +31,9 @@
 
 Откройте Zad1_1.ipynb в Jupyter
 
-Выполните ячейки по порядку:
+### Выполните ячейки по порядку:
 
--Сначала ячейки с функциями encode, decode, read_text, write_text
--Затем ячейку шифрования (чтение Original_text.txt → запись Coded_text.txt)
--Затем ячейку дешифрования (чтение Coded_text.txt → запись Decoded_text.txt)
--Введите ключ сдвига когда программа запросит его
+- Сначала ячейки с функциями encode, decode, read_text, write_text
+- Затем ячейку шифрования (чтение Original_text.txt → запись Coded_text.txt)
+- Затем ячейку дешифрования (чтение Coded_text.txt → запись Decoded_text.txt)
+- Введите ключ сдвига когда программа запросит его
