@@ -38,7 +38,7 @@ where:
 3. Enter the shift key when prompted by the program
 
 ## Author
-Strenina T.V.
+Strenina T.
 
 ## Year
 2025
