@@ -1,39 +1,44 @@
-# cesar_cryptography
-## Описание
+# Caesar Cipher
 
-Этот проект представляет собой реализацию классического **шифра Цезаря** — одного из самых известных и простых методов шифрования. Проект реализован в виде Jupyter Notebook, который содержит как теоретические пояснения, так и практическую реализацию алгоритма.
+## Description
 
-**Цель работы:** продемонстрировать работу алгоритма шифрования и дешифрования шифра Цезаря для текстов на русском и английском языках.
+This project implements the classic **Caesar cipher** — one of the most famous and simple encryption methods. The project is implemented as a Jupyter Notebook containing both theoretical explanations and practical implementation of the algorithm.
 
-## Содержание репозитория
+**Purpose:** demonstrate how the Caesar cipher encryption and decryption algorithm works for texts in Russian and English.
 
-- **`Zad1_1.ipynb`** - основной Jupyter Notebook с кодом и пояснениями
-- **`Original_text.txt`** — исходный, незашифрованный текст
-- **`Coded_text.txt`** — текст, полученный после шифрования
-- **`Decoded_text.txt`** — текст, полученный после дешифрования
+## Repository Contents
 
-## Алгоритм реализации
+- **`Zad1_1.ipynb`** — main Jupyter Notebook with code and explanations
+- **`Original_text.txt`** — original, unencrypted text
+- **`Coded_text.txt`** — text after encryption
+- **`Decoded_text.txt`** — text after decryption
 
-### Поддерживаемые алфавиты:
-- **Латинский алфавит**: A-Z (65-90), a-z (97-122) - 26 символов
-- **Русский алфавит**: А-Я (1040-1071), а-я (1072-1103) - 32 символа
+## Algorithm Implementation
 
-### Формулы:
-- **Шифрование**: `E(c) = (c + k) mod n`
-- **Дешифрование**: `D(c) = (c - k) mod n`
+### Supported Alphabets:
+- **Latin alphabet**: A-Z (65-90), a-z (97-122) — 26 characters
+- **Russian alphabet**: А-Я (1040-1071), а-я (1072-1103) — 32 characters
 
-где:
-- `c` - позиция символа в алфавите
-- `k` - ключ (сдвиг)
-- `n` - мощность алфавита (26 для латинского, 32 для русского)
+### Formulas:
+- **Encryption**: `E(c) = (c + k) mod n`
+- **Decryption**: `D(c) = (c - k) mod n`
 
-## Процесс работы:
+where:
+- `c` — character position in the alphabet
+- `k` — key (shift)
+- `n` — alphabet size (26 for Latin, 32 for Russian)
 
-Откройте Zad1_1.ipynb в Jupyter
+## How to Use
 
-### Выполните ячейки по порядку:
+1. Open `Zad1_1.ipynb` in Jupyter Notebook
+2. Run the cells in order:
+   - First, the cells with `encode`, `decode`, `read_text`, `write_text` functions
+   - Then the encryption cell (reads `Original_text.txt` → writes `Coded_text.txt`)
+   - Then the decryption cell (reads `Coded_text.txt` → writes `Decoded_text.txt`)
+3. Enter the shift key when prompted by the program
 
-- Сначала ячейки с функциями encode, decode, read_text, write_text
-- Затем ячейку шифрования (чтение Original_text.txt → запись Coded_text.txt)
-- Затем ячейку дешифрования (чтение Coded_text.txt → запись Decoded_text.txt)
-- Введите ключ сдвига когда программа запросит его
+## Author
+Strenina T.V.
+
+## Year
+2025
