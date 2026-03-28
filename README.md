@@ -37,8 +37,5 @@ where:
    - Then the decryption cell (reads `Coded_text.txt` → writes `Decoded_text.txt`)
 3. Enter the shift key when prompted by the program
 
-## Author
-Strenina T.
-
 ## Year
 2025
